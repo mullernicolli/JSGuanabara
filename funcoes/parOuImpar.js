@@ -1,6 +1,6 @@
 const prompt = require('prompt-sync')();
-const parOuImpar = require('./fParOuImpar');
+const pParOuImpar = require('./pParOuImpar');
 
 
 let valor = parseInt(prompt('Digite um valor: '));
-parOuImpar(valor);
+pParOuImpar(valor);
