@@ -13,3 +13,32 @@ let resultado = fParOuImpar(v);
 // Passa o número digitado e o resultado da função
 // O procedimento apenas mostra o resultado na tela
 pParOuImpar(v, resultado);
+
+
+
+
+// ou tudo no mesmo código, sem separar por arquivos:
+
+/*
+
+const prompt = require('prompt-sync')();
+
+function ePar (x) {
+  return x % 2 === 0;
+}
+
+function parOuImpar (x, resultado) {
+  if (resultado) {
+    console.log(`O número ${x} é par!`);
+  } else {
+    console.log(`O número ${x} é ímpar!`);
+  }
+}
+
+let n = parseInt(prompt('Digite um número: '));
+
+let resultado = ePar(n);
+
+parOuImpar(n, resultado);
+
+*/
