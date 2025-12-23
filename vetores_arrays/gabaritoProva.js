@@ -26,7 +26,7 @@ for (let i = 0; i < 3; i++) {
     somaT = somaT + nota;       // Soma essa nota na soma total da turma
 }
 
-console.log('Notas dos alunos:');       // MOSTRA AS NOTAS DOS ALUNOS (ANTES DA MÉDIA)
+console.log('Notas dos alunos:');       // TÍTULO
 
 for (let i = 0; i < 3; i++) {
     // Mostra o nome e a nota de cada aluno
